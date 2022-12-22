@@ -1,0 +1,30 @@
+.tableau-chic{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px rgba(0,0,0,0.15);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 3px solid midnightblue;
+    /*border: 1px solid #ddd;*/
+}
+thead tr{
+    background-color: midnightblue;
+    color: #fff;
+    text-align: left;
+}
+th, td{
+    padding: 20px 20px;
+}
+
+tbody tr, td, th{
+    border: 1px solid rgb(19, 16, 16);
+}
+
+tbody tr:nth-child(even){
+    background-color: rgba(143, 149, 152, 0.231);
+    /*pour styliser les éléments paire du tableau*/
+}
+/*tbody tr:last-of-type{
+    border-bottom: 2px solid midnightblue;
+}*/
